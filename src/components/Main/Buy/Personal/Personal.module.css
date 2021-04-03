@@ -1,0 +1,119 @@
+.b_d_items {
+  height: 540px;
+  width: 270px;
+  border-radius: 48px;
+  padding: 30px;
+  background-color: #dededd;
+}
+
+.b_d_items .items {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.b_d_items .items .items_icon {
+  height: 64px;
+  width: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.b_d_items .items h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 115%;
+}
+
+.b_d_items .list {
+  height: 220px;
+  padding: 30px 0 0 20px;
+}
+
+.b_d_items .list li {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.b_d_items .list__diamond {
+  height: 220px;
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.b_d_items .i_text_value h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: black;
+  margin: 10px 0;
+}
+
+.b_d_items .i_text_value .first_value {
+  margin-bottom: 5px;
+}
+
+.b_d_items .i_text_value .first_value p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #707070;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.b_d_items .i_text_value .last_value .v_num {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+  color: black;
+}
+
+.b_d_items .i_text_value .last_value .v_num span {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.b_d_items button {
+  margin: 30px 18px;
+  font-size: 16px;
+  padding: 15px 45px;
+  background-color: #dededd;
+  border: 1px solid #6b6b6b;
+  border-radius: 15px;
+}
+
+.b_d_items button:hover {
+  background-color: #313131;
+  color: #c7c7c7;
+  -webkit-transition: 0.7s all ease;
+  transition: 0.7s all ease;
+  font-weight: 500;
+}
+
+.b_d_items button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=Personal.module.css.map */

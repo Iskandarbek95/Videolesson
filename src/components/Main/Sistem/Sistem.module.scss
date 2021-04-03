@@ -1,0 +1,32 @@
+.sistem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .sistem__items1,
+    .sistem__items2,
+    .sistem__items3,
+    .sistem__items4 {
+        height: 325px;
+        width: 270px;
+        border-radius: 40px;
+        background-color: #f1f6ff;
+        margin: 95px 0;
+            background-repeat: no-repeat;
+        h3 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 115%;
+            padding: 32px;
+        }
+    }
+    .sistem__items1,
+    .sistem__items2,
+    .sistem__items4{
+        background-position: bottom 0px right 0px;
+    }
+    .sistem__items3{
+        background-position: 0% 80%;
+    }
+
+}

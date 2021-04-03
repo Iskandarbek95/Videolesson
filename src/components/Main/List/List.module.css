@@ -1,0 +1,116 @@
+.lists .section-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+}
+
+.lists .list__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+}
+
+.lists .list__body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.lists .list__body .row:hover button {
+  opacity: 1;
+  padding: 15px 35px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.lists .list__body .row:hover p {
+  display: none;
+}
+
+.lists .list__body div {
+  height: 160px;
+}
+
+.lists .list__body div .l_b_icon {
+  height: 160px;
+  width: 120px;
+  background-color: yellow;
+  border-radius: 32px;
+}
+
+.lists .list__body div .l_b_text {
+  padding: 25px;
+  width: 250px;
+  margin-right: 45px;
+}
+
+.lists .list__body div .l_b_text h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  margin-bottom: 20px;
+}
+
+.lists .list__body div .l_b_text button {
+  opacity: 0;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: #313131;
+  color: #c7c7c7;
+  font-weight: 500;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.lists .list__body div .l_b_text button:focus {
+  outline: none;
+}
+
+.lists .list__body div .l_b_text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.lists .button {
+  height: 50px;
+  width: 210px;
+  margin: 65px auto;
+}
+
+.lists .button button {
+  padding: 16px 32px;
+  font-size: 16px;
+  background: #eff1f3;
+  border-radius: 12px;
+  color: #333333;
+  border: none;
+}
+
+.lists .button button:hover {
+  background-color: #313131;
+  color: #c7c7c7;
+  -webkit-transition: 0.7s all ease;
+  transition: 0.7s all ease;
+  font-weight: 500;
+}
+
+.lists .button button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=List.module.css.map */

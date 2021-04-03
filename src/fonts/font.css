@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: "rubik";
+  src: url("Rubik-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves bold";
+  src: url("TTHoves-Bold.eot") format("embedded-opentype"),
+    url("TTHoves-Bold.woff2") format("woff2"),
+    url("TTHoves-Bold.woff") format("woff"),
+    url("TTHoves-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Hoves regular";
+  src: url("TTHoves-Regular.eot") format("embedded-opentype"),
+    url("TTHoves-Regular.woff2") format("woff2"),
+    url("TTHoves-Regular.woff") format("woff"),
+    url("TTHoves-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves semi bold";
+  src: url("TTHoves-Medium.eot") format("embedded-opentype"),
+    url("TTHoves-Medium.woff2") format("woff2"),
+    url("TTHoves-Medium.woff") format("woff"),
+    url("TTHoves-Medium.ttf") format("truetype");
+  font-style: normal;
+}

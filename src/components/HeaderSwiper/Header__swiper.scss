@@ -1,0 +1,75 @@
+.header__swiper {
+    height: 500px;
+    // position: relative;
+
+    // &::after {
+    //     content: "";
+    //     height: 70%;
+    //     position: absolute;
+    //     width: 30px;
+    //     box-shadow: 80px 0px 32px 142px ;
+    //     top: 50%;
+    //     transform: translateY(-50%);
+    //     right: 0px;
+    //     z-index: 1000;
+    //     background-color: black;
+    // }
+    // &::before {
+    //     content: "";
+    //     height: 70%;
+    //     position: absolute;
+    //     width: 30px;
+    //     box-shadow: -45px 0px 32px 118px black;
+    //     top: 50%;
+    //     transform: translateY(-50%);
+    //     left: 0;
+    //     background-color: black;
+    //     z-index: 0;
+    // }
+    .swiper-slide {
+        padding: 0 50px 20px 50px;
+        .s-s-body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .s-b-inform {
+                height: 380px;
+                width: 480px;
+                padding: 50px 0;
+                h1 {
+                    font-weight: 600;
+                    font-size: 56px;
+                    line-height: 64px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 120%;
+                    margin-top: 25px;
+                }
+                button {
+                    font-size: 16px;
+                    line-height: 120%;
+                    color: black;
+                    background: rgb(187, 187, 187);
+                    border: none;
+                    border-radius: 16px;
+                    margin-top: 30px;
+                    padding: 16px 32px;
+                    &:hover {
+                        color: rgb(216, 216, 216);
+                        background-color: rgb(44, 44, 44);
+                        transition: 0.7s all ease;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+            .s-b-img {
+                height: 480px;
+                width: 480px;
+                border-radius: 48px;
+            }
+        }
+    }
+}

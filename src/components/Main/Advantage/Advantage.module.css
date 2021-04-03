@@ -1,0 +1,43 @@
+.advantag {
+  margin-bottom: 40px;
+}
+
+.advantag .advantag__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 50px 0 0 100px;
+}
+
+.advantag .advantag__body div {
+  height: 280px;
+  width: 280px;
+  margin-right: 80px;
+}
+
+.advantag .advantag__body div .a_b_icon {
+  height: 180px;
+  width: 140px;
+}
+
+.advantag .advantag__body div h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  margin-top: 25px;
+}
+
+.advantag .advantag__body div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Advantage.module.css.map */

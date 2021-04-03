@@ -1,0 +1,90 @@
+.modal__body {
+  height: 630px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  padding: 80px;
+  font-family: "TT Hoves semi bold";
+}
+
+.modal__body .modal__body_text {
+  width: 412px;
+  padding-right: 60px;
+}
+
+.modal__body .modal__body_text h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.modal__body .modal__body_text form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal__body .modal__body_text form p {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.modal__body .modal__body_text form select {
+  height: 55px;
+  width: 350px;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  margin-top: 7px;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.modal__body .modal__body_text form select:focus {
+  outline: none;
+}
+
+.modal__body .modal__body_text form input {
+  height: 55px;
+  width: 350px;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  margin-top: 7px;
+  padding: 15px;
+}
+
+.modal__body .modal__body_text form input:focus {
+  outline: none;
+}
+
+.modal__body .modal__body_text button {
+  font-size: 16px;
+  line-height: 120%;
+  color: #d8d8d8;
+  background-color: #2f2f2f;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 17px 115px;
+}
+
+.modal__body .modal__body_text button:focus {
+  outline: none;
+}
+
+.modal__body .modal__body_img {
+  width: 420px;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=ModalBody.module.css.map */

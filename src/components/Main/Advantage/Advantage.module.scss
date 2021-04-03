@@ -1,0 +1,32 @@
+.advantag {
+    margin-bottom: 40px;
+    .advantag__body {
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0 0 100px;
+        div {
+            height: 280px;
+            width: 280px;
+            margin-right: 80px;
+            .a_b_icon {
+                height: 180px;
+                width: 140px;
+            }
+            h4 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 115%;
+                margin-top: 25px;
+            }
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 120%;
+                color: rgba(0, 0, 0, 0.5);
+                margin-top: 10px;
+            }
+        }
+    }
+}

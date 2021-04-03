@@ -1,0 +1,91 @@
+.nav {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.nav .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .container .logo a {
+  text-decoration: none;
+}
+
+.nav .container .logo img {
+  width: 100px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.nav .container .logo .audioLink {
+  font-size: 14px;
+  line-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #a29f9d;
+  padding: 0 10px;
+  border-right: 1px solid #a29f9d;
+}
+
+.nav .container .logo .videoLink {
+  font-size: 14px;
+  color: black;
+  padding: 0 10px;
+}
+
+.nav .container ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.nav .container ul li {
+  padding: 24px;
+}
+
+.nav .container ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav .container ul li a:hover {
+  color: rgba(0, 0, 0, 0.404);
+}
+
+.nav .container .nav__number {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=Nav.module.css.map */
